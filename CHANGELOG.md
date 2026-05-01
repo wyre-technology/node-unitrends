@@ -1,3 +1,10 @@
+# 1.0.0 (2026-05-01)
+
+
+### Features
+
+* initial SDK scaffold for Unitrends Backup REST API ([c45d0e3](https://github.com/wyre-technology/node-unitrends/commit/c45d0e32be1f731f5c68485f6373a3659ba79175))
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
