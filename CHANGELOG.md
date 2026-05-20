@@ -14,6 +14,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Added `"type": "module"` so `tsup` emits files matching the `exports` map.
+
+### Changed
+
+- Build target raised to `node22`; `@types/node` bumped to `^22`.
+
+### Added
+
+- CI workflow (`.github/workflows/ci.yml`) running lint, typecheck, build, and tests on pull requests and pushes (Node 22).
+- `CODE_OF_CONDUCT.md` (Contributor Covenant).
+
+## [0.1.0] - 2026-05-20
+
 ### Added
 
 - Initial SDK scaffold for the Unitrends Backup REST API.
