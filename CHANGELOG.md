@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/wyre-technology/node-unitrends/compare/v1.0.0...v1.0.1) (2026-05-20)
+
+
+### Bug Fixes
+
+* correct packaging exports so .cjs/.d.cts resolve ([#2](https://github.com/wyre-technology/node-unitrends/issues/2)) ([c8adae9](https://github.com/wyre-technology/node-unitrends/commit/c8adae9dd3ba71f790f0c0268364bc55a6ea2974))
+
 # 1.0.0 (2026-05-01)
 
 
