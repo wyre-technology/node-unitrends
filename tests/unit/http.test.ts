@@ -90,7 +90,7 @@ describe('Self-signed TLS handling', () => {
       // Capture the dispatcher passed by the SDK on every call.
       observedDispatcher = (init as unknown as { dispatcher?: unknown })?.dispatcher;
       // Return either a login or assets response based on URL.
-      const url = String(_input);
+      const url = _input instanceof Request ? _input.url : String(_input);
       if (url.endsWith('/login')) {
         return Promise.resolve(
           new Response(
