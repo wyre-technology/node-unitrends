@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/wyre-technology/node-unitrends/compare/v1.0.1...v1.0.2) (2026-06-22)
+
+
+### Bug Fixes
+
+* **tsconfig:** restore include/exclude globs ([#32](https://github.com/wyre-technology/node-unitrends/issues/32)) ([662d015](https://github.com/wyre-technology/node-unitrends/commit/662d015bc3598719b828d12ac322d652c03569d8))
+
 ## [1.0.1](https://github.com/wyre-technology/node-unitrends/compare/v1.0.0...v1.0.1) (2026-05-20)
 
 
